@@ -9,3 +9,5 @@ class Mammal
   end
 
 end 
+
+Mammal.speak

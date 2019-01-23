@@ -9,3 +9,5 @@ class Reptile
   end
 
 end 
+
+Reptile.speak

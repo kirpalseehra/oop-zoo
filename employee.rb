@@ -1,8 +1,10 @@
 class Employee
 
-  def constructor_class(arg1, arg2, arg3)
-    puts 'This is the super class method we should see'
-    puts arg1,arg2,arg3
+  def constructor_class(firstname, lastname, age, role)
+    
   end
 
 end
+
+employee = Employee.new
+employee.constructor_class

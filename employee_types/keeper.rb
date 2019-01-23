@@ -1,12 +1,10 @@
 require_relative '../employee'
 class Keeper < Employee
 
-  def constructor_class(arg1, arg2, arg3)
+  def constructor_class(firstname, lastname, age, role)
     super
-    puts 'This is the super_duper method which we inherited from animal'
-    
   end
 end 
 
 john = Keeper.new
-john.constructor_class('John', 'Smith', '28')
+john.constructor_class('John', 'Smith', 28, 'I am a keeper pal')

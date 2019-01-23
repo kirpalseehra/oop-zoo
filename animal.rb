@@ -15,4 +15,7 @@ module Animals
   end
 end 
 
+# Animals.alive
+# Animals.eat
+# Animals.speak
 
